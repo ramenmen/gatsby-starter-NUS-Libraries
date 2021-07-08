@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header/Header.js"
 import Navbar from "./Navbar/Navbar.js"
-import * as styles from "./layout.module.scss"
+import * as styles from "./Layout.module.scss"
 import Footer from "./Footer/Footer.js"
 import { Container } from 'react-bootstrap'
 import { motion } from "framer-motion"
@@ -33,9 +33,8 @@ const Layout = ({ children }) => {
     <Container className={styles.layout}>
     <Header />
     <Navbar />
-      <Container>
       
-      <motion.main
+    <motion.main className={styles.contentContainer}
         initial={{ opacity: 0, x: -200 }}
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 200 }}
@@ -46,9 +45,9 @@ const Layout = ({ children }) => {
           duration: 1.0
           }}>
           <main>{children}</main>
-        </motion.main>
+      </motion.main>
 
-        </Container>
+
       <Footer />
     </Container>
     </>
