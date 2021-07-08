@@ -1,9 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import * as styles from './Content.module.scss'
-import { Container, Jumbotron, Col, Row, Card, CardDeck, Button, CardColumns} from 'react-bootstrap'
+import { Container, Jumbotron, Col, Row, Card, CardDeck, Button } from 'react-bootstrap'
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
-import { graphql, useStaticQuery} from "gatsby"
+
 
 export default function Content() {
 
