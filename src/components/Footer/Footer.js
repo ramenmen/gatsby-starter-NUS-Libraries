@@ -72,9 +72,9 @@ export default function Footer(props) {
           <Nav>
             <Nav.Link href="https://www.facebook.com/NUSLibraries" target="_blank" className={styles.img}>      
               <StaticImage
-                src="../../images/facebook"
+                src="../../images/facebook.png"
                 alt="facebook"
-                heihgt={32}
+                height={32}
                 width={32}
                 layout="fixed"
                 loading="eager"
@@ -84,9 +84,9 @@ export default function Footer(props) {
             </Nav.Link>
             <Nav.Link href="https://twitter.com/NUSlibraries" target="_blank" className={styles.img}>              
               <StaticImage
-                  src="../../images/twitter"
+                  src="../../images/twitter.png"
                   alt="twitter"
-                  heihgt={32}
+                  height={32}
                   width={32}
                   layout="fixed"
                   loading="eager"
@@ -96,9 +96,9 @@ export default function Footer(props) {
             </Nav.Link>
             <Nav.Link href="https://instagram.com/nuslibraries" target="_blank" className={styles.img}>
               <StaticImage
-                  src="../../images/instagram"
+                  src="../../images/instagram.png"
                   alt="instagram"
-                  heihgt={32}
+                  height={32}
                   width={32}
                   layout="fixed"
                   loading="eager"
@@ -108,9 +108,9 @@ export default function Footer(props) {
             </Nav.Link>
             <Nav.Link href="http://blog.nus.edu.sg/linus/" target="_blank" className={styles.img}>
               <StaticImage
-                    src="../../images/word"
+                    src="../../images/word.png"
                     alt="word"
-                    heihgt={32}
+                    height={32}
                     width={32}
                     layout="fixed"
                     loading="eager"
@@ -120,9 +120,9 @@ export default function Footer(props) {
             </Nav.Link>
             <Nav.Link href="https://www.youtube.com/user/nuslibraries" target="_blank" className={styles.img}>
               <StaticImage
-                      src="../../images/youtube"
+                      src="../../images/youtube.png"
                       alt="youtube"
-                      heihgt={32}
+                      height={32}
                       width={32}
                       layout="fixed"
                       loading="eager"
@@ -132,9 +132,9 @@ export default function Footer(props) {
             </Nav.Link>
             <Nav.Link href="https://www.flickr.com/photos/nuslibraries" target="_blank" className={styles.img}>
               <StaticImage
-                      src="../../images/flickr"
+                      src="../../images/flickr.png"
                       alt="flickr"
-                      heihgt={32}
+                      height={32}
                       width={32}
                       layout="fixed"
                       loading="eager"
@@ -164,18 +164,78 @@ export default function Footer(props) {
         </Row>
 
         <Row className={styles.footerMinContent}>
-          <Nav>
-            <Nav.Link href="https://www.facebook.com/NUSLibraries" target="_blank" className={styles.img}><img src="facebook" style={{height: 32, width: 32}} alt="facebook" />
+        <Nav>
+            <Nav.Link href="https://www.facebook.com/NUSLibraries" target="_blank" className={styles.img}>      
+              <StaticImage
+                src="../../images/facebook.png"
+                alt="facebook"
+                height={32}
+                width={32}
+                layout="fixed"
+                loading="eager"
+                position="0 0"
+                objectFit="contain"
+              />
             </Nav.Link>
-            <Nav.Link href="https://twitter.com/NUSlibraries" target="_blank" className={styles.img}><img src="twitter" style={{height: 32, width: 32}} alt="twitter" />
+            <Nav.Link href="https://twitter.com/NUSlibraries" target="_blank" className={styles.img}>              
+              <StaticImage
+                  src="../../images/twitter.png"
+                  alt="twitter"
+                  height={32}
+                  width={32}
+                  layout="fixed"
+                  loading="eager"
+                  position="0 0"
+                  objectFit="contain"
+                />
             </Nav.Link>
-            <Nav.Link href="https://instagram.com/nuslibraries" target="_blank" className={styles.img}><img src="instagram" style={{height: 32, width: 32}} alt="instagram" />
+            <Nav.Link href="https://instagram.com/nuslibraries" target="_blank" className={styles.img}>
+              <StaticImage
+                  src="../../images/instagram.png"
+                  alt="instagram"
+                  height={32}
+                  width={32}
+                  layout="fixed"
+                  loading="eager"
+                  position="0 0"
+                  objectFit="contain"
+                />
             </Nav.Link>
-            <Nav.Link href="http://blog.nus.edu.sg/linus/" target="_blank" className={styles.img}><img src="word" style={{height: 32, width: 32}} alt="word" />
+            <Nav.Link href="http://blog.nus.edu.sg/linus/" target="_blank" className={styles.img}>
+              <StaticImage
+                    src="../../images/word.png"
+                    alt="word"
+                    height={32}
+                    width={32}
+                    layout="fixed"
+                    loading="eager"
+                    position="0 0"
+                    objectFit="contain"
+                  />
             </Nav.Link>
-            <Nav.Link href="https://www.youtube.com/user/nuslibraries" target="_blank" className={styles.img}><img src="youtube" style={{height: 32, width: 32}} alt="youtube" />
+            <Nav.Link href="https://www.youtube.com/user/nuslibraries" target="_blank" className={styles.img}>
+              <StaticImage
+                      src="../../images/youtube.png"
+                      alt="youtube"
+                      height={32}
+                      width={32}
+                      layout="fixed"
+                      loading="eager"
+                      position="0 0"
+                      objectFit="contain"
+                    />
             </Nav.Link>
-            <Nav.Link href="https://www.flickr.com/photos/nuslibraries" target="_blank" className={styles.img}><img src="flickr" style={{height: 32, width: 32}} alt="flickr" />
+            <Nav.Link href="https://www.flickr.com/photos/nuslibraries" target="_blank" className={styles.img}>
+              <StaticImage
+                      src="../../images/flickr.png"
+                      alt="flickr"
+                      height={32}
+                      width={32}
+                      layout="fixed"
+                      loading="eager"
+                      position="0 0"
+                      objectFit="contain"
+                    />
             </Nav.Link>
           </Nav>
         </Row>
