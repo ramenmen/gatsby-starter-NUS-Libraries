@@ -11,6 +11,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Footer(props) {
   return (
   <Container className={styles.footer}>
+  <Container>
     <Container className={styles.footerTop}>
     <Row>
       <Col xs={4} sm={4} lg={4} className="d-none d-sm-none d-lg-block">
@@ -261,7 +262,7 @@ export default function Footer(props) {
         </Row>
       </Col>
     </Container>
-
+</Container>
 </Container>
   )
 }

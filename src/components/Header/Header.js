@@ -11,13 +11,13 @@ export default function Header() {
 
       <Link to="http://www.lib.nus.edu.sg/">
       <StaticImage
-        src="../../images/NUSL_logo.png"
+        src={"../../images/NUSL_logo.png"}
         alt="NUS LOGO"
         layout="fixed"
-        loading="eager"
         position="0 0"
         objectFit="contain"
       />
+
       </Link>
 
       </Container>
