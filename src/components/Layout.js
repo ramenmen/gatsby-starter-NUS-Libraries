@@ -14,8 +14,7 @@
  import Footer from "./Footer/Footer.js"
  import { Container } from 'react-bootstrap'
  import { motion } from "framer-motion"
- import { StaticImage } from "gatsby-plugin-image"
- import { Link } from "gatsby"
+
  import 'bootstrap/dist/css/bootstrap.min.css';
  
  
