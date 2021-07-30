@@ -16,7 +16,6 @@ export default function Header() {
         position="0 0"
         objectFit="contain"
       />
-
       </a>
 
       </Container>
