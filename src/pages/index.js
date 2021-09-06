@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Container } from 'react-bootstrap'
 import Content from "../components/Content/Content.js"
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
 import 'bootstrap/dist/css/bootstrap.min.css';
 

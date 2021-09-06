@@ -16,6 +16,21 @@
 }
 }
 
+@media screen and (max-width: 991px) {
+.footerMinContent {
+  text-align:center;
+  justify-content: center;
+}
+
+.footerMin {
+  border-left: none !important;
+}
+
+.iconArrow {
+  margin-right:-10px !important;
+
+}
+}
 
 .footerTop {
   max-width:100%;
@@ -61,7 +76,7 @@
 }
 
 .footerCopyright {
-  max-width:100%;
+  max-width:100% !important;
   border-top: 1px solid #003D7C;
   background-color: #003062;
   color: #999999;
@@ -91,7 +106,7 @@
   }
 }
 
-.icon {
+.icon, .iconArrow {
   color:#ffffff;
   margin-right:8px;
   font-size:13px;
