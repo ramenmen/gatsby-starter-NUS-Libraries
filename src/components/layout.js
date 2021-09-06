@@ -10,7 +10,7 @@
  
  import Header from "./Header/Header.js"
  import Navbar from "./Navbar/Navbar.js"
- import * as styles from "./Layout.module.scss"
+ import * as styles from "./layout.module.scss"
  import Footer from "./Footer/Footer.js"
  import { Container } from 'react-bootstrap'
  import { motion } from "framer-motion"
@@ -24,10 +24,10 @@
      <Container className={styles.layout}>
      <Header />
      <Navbar />
-    <div>asdsdds</div>
+
      <motion.main className={styles.contentContainer}
          initial={{ opacity: 0, x: -200 }}
-         animate={{ opacity: 0, x: 0 }}
+         animate={{ opacity: 1, x: 0 }}
          exit={{ opacity: 0, x: 200 }}
          transition={{
            type: "spring",
