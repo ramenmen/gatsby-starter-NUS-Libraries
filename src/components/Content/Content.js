@@ -32,7 +32,7 @@ export default function Content() {
         </Row>
         </Jumbotron>
 
-        <Jumbotron className={styles.contentHeadline} style={{ marginTop: 0, marginBottom: 20,padding:0 }}>
+        {/* <Jumbotron className={styles.contentHeadline} style={{ marginTop: 0, marginBottom: 20,padding:0 }}>
             <StaticImage
                 src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/accounts/202699/images/banner_tel_imaginariumwords.png"
                 alt="NUS LOGO"
@@ -42,7 +42,7 @@ export default function Content() {
                 objectFit="contain"
             />
 
-        </Jumbotron>
+        </Jumbotron> */}
 
         <Container>
         <Row>
