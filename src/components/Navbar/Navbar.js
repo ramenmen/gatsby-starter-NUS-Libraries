@@ -50,6 +50,8 @@ export default function NavBar({ menuItems }) {
                 </Row>
                 </HoverControlledDropdown>
 
+                <Nav.Link className={styles.navItemHome} href="/">Test</Nav.Link>
+
                 <HoverControlledDropdown className={styles.navItem} title="Services">
                     <NavDropdown.Item href="https://libportal.nus.edu.sg/frontend/e-forms/services-undergraduates?formType=Forms+for+Undergraduate+Students&formName=Undergraduate+Students&cid=630946" target="_self">Undergraduate Students</NavDropdown.Item>
                     <NavDropdown.Item href="https://libportal.nus.edu.sg/frontend/e-forms/services-honours-students?formType=Forms+for+Honours+Students&formName=Honours+Students&cid=630946" target="_self">Honours Students</NavDropdown.Item>
